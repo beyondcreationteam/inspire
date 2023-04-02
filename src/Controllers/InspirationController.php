@@ -11,4 +11,10 @@ class InspirationController
 
         return view('inspire::index', compact('quote'));
     }
+
+    public function login()
+    {
+        dd("hey");
+        return "login";
+    }
 }
