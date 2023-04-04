@@ -18,9 +18,9 @@ class InspirationProvider extends ServiceProvider
       $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
       $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
       $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-      $this->loadViewsFrom(__DIR__.'/../views', 'inspire');
+      $this->loadViewsFrom(__DIR__.'/../views', 'beyondcreation');
 
-      $this->loadTranslationsFrom(__DIR__.'/../lang', 'courier');
+      $this->loadTranslationsFrom(__DIR__.'/../lang', 'beyondcreation');
       $this->publishes([
           __DIR__.'/../lang' => $this->app->langPath('vendor/courier'),
       ]);

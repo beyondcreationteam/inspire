@@ -8,6 +8,6 @@ class AdminController
 {
     public function adminLogin()
     {
-        return "login";
+        return view("beyondcreation::index");
     }
 }
