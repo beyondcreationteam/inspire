@@ -6,6 +6,11 @@
             "Beyondcreation\\Inspire\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Beyondcreation\\Inspire\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "eyadalasfahany",
@@ -14,7 +19,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "guzzlehttp/guzzle": "^7.0.1",
+        "guzzlehttp/guzzle": "^7.5",
         "laravel/sanctum": "^3.2"
     },
     "extra": {
@@ -23,5 +28,9 @@
                 "Beyondcreation\\Inspire\\Providers\\InspirationProvider"
             ]
         }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.2",
+        "phpunit/phpunit": "^10.0"
     }
 }

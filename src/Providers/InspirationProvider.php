@@ -21,8 +21,8 @@ class InspirationProvider extends ServiceProvider
       $this->loadViewsFrom(__DIR__.'/../views', 'beyondcreation');
 
       $this->loadTranslationsFrom(__DIR__.'/../lang', 'beyondcreation');
-      $this->publishes([
-          __DIR__.'/../lang' => $this->app->langPath('vendor/courier'),
-      ]);
+      // $this->publishes([
+      //     __DIR__.'/../lang' => $this->app->langPath('vendor/courier'),
+      // ]);
     }
 }
